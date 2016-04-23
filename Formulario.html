@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<form method="post" action="enviador.php">
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+		<br/>
+		
+		<label for="correo">Email</label>
+		<input type="email" name="correo" placeholder="Ingresa tu mail" required>
+		<br/>
+
+		<label for="Edad">Edad:</label>
+		<input type="number" name="edad" placeholder="Ingresá tu edad">
+		<br/>
+
+		<label>Telefono</label>
+		<input type="tel" name="telefono" placeholder="Ingresa tu teléfono">
+		<br/>
+		<br/>
+		<label for="Mensaje">Comentarios</label>
+		<textarea name="Mensaje" placeholder="Dejá tu mensaje"></textarea>
+	
+		<label for="foto">Foto:</label>
+		<input type="file" name="Foto">
+		<br/>
+
+		<input type="checkbox" name="novedades">Desea recibir novedades?
+		
+		<br/>
+		
+		<label for="sexo">Sexo:</label>
+		<br/>
+		<input type="radio" name="sexo" value="Masculino">Masculino
+		<br/>
+		<input type="radio" name="sexo" value="Femenino">Femenino
+
+	</form>
+
+</body>
+</html>
